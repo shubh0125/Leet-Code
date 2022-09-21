@@ -16,7 +16,7 @@ class Solution {
                 nn=r;
                 break;
             }
-            else{
+            else if(sr!=sl){
                 nn=-1;
             }
             r++;
