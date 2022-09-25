@@ -1,8 +1,6 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        
-        
-        
+        if(nums.length == 1) return 1;
         int ans = 0;
         int j = 0;
         ArrayList<Integer> temp = new ArrayList<>();
@@ -20,5 +18,4 @@ class Solution {
         }
         return ans+1;
     }
-    
 }
